@@ -1,0 +1,35 @@
+/* Definir uma área para agrupar os painéis das receitas */
+.receitas-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Definir a formatação dos painéis de receitas */
+  .receitas-painel {
+    width: 33.33%; /* Para exibir 3 receitas lado a lado */
+    padding: 20px;
+  }
+  
+  /* Definir a formatação para o nome da receita */
+  .receita-nome {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Definir a formatação para a foto do prato */
+  .receita-foto {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Definir a formatação para a lista de itens */
+  .receita-itens {
+    margin-bottom: 10px;
+  }
+  
+  /* Definir a formatação para o modo de preparo */
+  .receita-preparo {
+    font-style: italic;
+  }
